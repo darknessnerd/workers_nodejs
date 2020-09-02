@@ -1,0 +1,20 @@
+{
+  "name": "worker_thread",
+  "version": "0.0.1",
+  "description": "How To Implement Worker Threads In Node.js",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js workers/**",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "crinitib@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.8.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  }
+}
